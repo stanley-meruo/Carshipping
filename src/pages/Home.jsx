@@ -129,6 +129,7 @@ const Home = () => {
 
       {/* CONTACT */}
       <Contact />
+      
       {/* FOOTER */}
       <Footer />
     </>

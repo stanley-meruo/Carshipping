@@ -129,12 +129,12 @@ const Navbar = () => {
                   HOME
                 </li>
               </Link>
-              <Link to="/services">
+              <Link to="services">
                 <li className="block hover:text-babyblue hover:underline hover:underline-offset-[16px] my-6">
                   SERVICES
                 </li>
               </Link>
-              <Link to="/contact">
+              <Link to="contact">
                 <li className="block hover:text-babyblue hover:underline hover:underline-offset-[16px] my-6">
                   CONTACT
                 </li>

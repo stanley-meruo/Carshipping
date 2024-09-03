@@ -26,7 +26,7 @@ const Footer = () => {
               <li className="py-4">
                 <Link
                   className="hover:text-babyblue hover:underline hover:underline-offset-[16px]"
-                  to="/services"
+                  to="services"
                 >
                   Services
                 </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
               <li className="py-4">
                 <Link
                   className="hover:text-babyblue hover:underline hover:underline-offset-[16px]"
-                  to="/"
+                  to="contact"
                 >
                   Contact
                 </Link>

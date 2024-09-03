@@ -58,7 +58,7 @@ const Home = () => {
             We ship cars, motorcycles, boats, special machinery in containers
             from the USA to all over the world.
           </p>
-          <Link to="/contact">
+          <Link to="contact">
             <div className="grid sm:flex sm:-mb-28 xl:mt-8">
               <Button
                 title="CONTACT US"
@@ -108,7 +108,7 @@ const Home = () => {
           <CardComponents />
         </div>
         <div className="mx-auto my-8 sm:mt-16">
-          <Link to="/services">
+          <Link to="services">
             <Button
               title="MORE ABOUT SERVICES"
               type="button"
@@ -129,7 +129,7 @@ const Home = () => {
 
       {/* CONTACT */}
       <Contact />
-      
+
       {/* FOOTER */}
       <Footer />
     </>

@@ -43,7 +43,7 @@ const Contact = () => {
             <p>
               I agree with the
               <Link
-                to="/contact"
+                to="contact"
                 className="underline underline-offset-4 cursor-pointer ml-1"
               >
                 Privacy Policy

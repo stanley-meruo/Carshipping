@@ -13,7 +13,7 @@
 
                 This is a desktop View.
                  
-<img src="https://github.com/stanley-meruo/Carshipping/src/assets/screenshot-desktop.png">
+<img src="https://github.com/stanley-meruo/Carshipping/tree/main/src/assets/screenshot-desktop.png">
 
               This is a mobile view.
                  

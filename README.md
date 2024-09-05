@@ -13,12 +13,12 @@
 
                 This is a desktop View.
                  
-<img src="https://github.com/stanley-meruo/Carshipping/tree/main/src/assets/screenshot-desktop.png">
+<img src="src/assets/screenshot-desktop.png">
 
               This is a mobile view.
                  
   <p align="center">
-   <img src="https://github.com/stanley-meruo/main/Carshipping/src/assets/screenshot-mobile.png" height="500px">
+   <img src="src/assets/screenshot-mobile.png" height="500px">
   </p>
   
 ### Links

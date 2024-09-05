@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import { motion } from "framer-motion";
-import Card from "../utilities/card";
+import Card from "../utilities/Card";
 
 
 const ServicesComponents = () => {

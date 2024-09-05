@@ -15,7 +15,7 @@ import image8 from "../assets/parts-purchase-mobile.png";
 import image8a from "../assets/parts-purchase-desktop.png";
 
 
-const ServicesComponents = () => {
+const CardComponents = () => {
   const [animate, setAnimate] = useState(false);
   const [scrollDirection, setScrollDirection] = useState(null);
 
@@ -168,4 +168,4 @@ const ServicesComponents = () => {
     </>
   );
 };
-export default ServicesComponents;
+export default CardComponents;

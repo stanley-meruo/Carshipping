@@ -13,13 +13,13 @@
 
                 This is a desktop View.
                  
-<!-- <img src="https://github.com/stanley-meruo/main/space-tourism/src/assets/space-tourism-challenge-desktop.png">
+<img src="https://github.com/stanley-meruo/main/Carshipping/public/screenshot-desktop.png">
 
-                 This is a mobile view.
+              This is a mobile view.
                  
   <p align="center">
-   <img src="https://github.com/stanley-meruo/main/space-tourism/src/assets/space-tourism-challenge-mobile.png" height="500px">
-  </p> -->
+   <img src="https://github.com/stanley-meruo/main/Carshipping/public/screenshot-mobile.png" height="500px">
+  </p>
   
 ### Links
 

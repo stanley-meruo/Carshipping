@@ -6,7 +6,7 @@ const SectionComponents = () => {
 
     return (
       <>
-        <div className="md:grid md:grid-cols-2 lg:flex lg:justify-between lg:overflow-x-scroll lg:mx-4">
+        <div className="md:grid md:grid-cols-2 lg:flex lg:justify-between lg:overflow-x-scroll lg:mx-4 lg:overflow-y-hidden">
           <motion.div
             className="sm:px-6"
             initial={{ opacity: 0, y: 100 }}

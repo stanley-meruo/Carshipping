@@ -22,13 +22,12 @@
   </p>
   
 ### Links
-
--
+- [Demo](https://carshipping.vercel.app)
 
 ### Built with
 
-- Tailwind CSS
-- [React](https://reactjs.org/) - JS library
+- Tailwind CSS (https:tailwindcss.com)
+- [React](https://reactjs.org/) - JS Frontend Framework
 - Framer Motion -  React Animation Library
 - React Router
 - Vite config -->

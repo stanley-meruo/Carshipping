@@ -4,7 +4,6 @@ import { PiCirclesFourLight } from "react-icons/pi";
 import { IoIosArrowBack } from "react-icons/io";
 import {
   FaInstagram,
-  FaTelegramPlane,
   FaYoutube,
   FaFacebook,
 } from "react-icons/fa";
@@ -73,28 +72,28 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden font-inter font-medium sm:flex sm:space-x-4 sm:mr-4 md:space-x-10 lg:space-x-16 lg:text-lg xl:space-x-20">
+        <ul className="hidden font-inter font-medium sm:flex sm:space-x-4 sm:text-sm sm:mr-4 md:space-x-10 md:text-base lg:space-x-16 lg:text-lg xl:space-x-20">
           <Link to="/">
-            <li className="hover:text-babyblue hover:underline hover:underline-offset-[16px]">
+            <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-babyblue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-babyblue">
               HOME
             </li>
           </Link>
           <Link to="/services">
-            <li className="hover:text-babyblue hover:underline hover:underline-offset-[16px]">
+            <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-babyblue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-babyblue">
               SERVICES
             </li>
           </Link>
           <Link to="/contact">
-            <li className="hover:text-babyblue hover:underline hover:underline-offset-[16px]">
+            <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-babyblue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-babyblue">
               CONTACT
             </li>
           </Link>
         </ul>
         <div className="hidden sm:flex sm:gap-2 sm:pr-5 lg:gap-5">
-          <FaFacebook className="w-8 h-8 text-white rounded-md bg-babyblue  p-2" />
-          <FaYoutube className="w-8 h-8 text-white rounded-md bg-babyblue  p-2" />
-          <FaInstagram className="w-8 h-8 text-white rounded-md bg-babyblue p-2" />
-          <FaXTwitter className="w-8 h-8 text-white rounded-md bg-babyblue p-2" />
+          <FaFacebook className="w-7 h-7 text-white rounded-md bg-babyblue p-2 md:w-8 md:h-8" />
+          <FaYoutube className="w-7 h-7 text-white rounded-md bg-babyblue p-2 md:w-8 md:h-8" />
+          <FaInstagram className="w-7 h-7 text-white rounded-md bg-babyblue p-2 md:w-8 md:h-8" />
+          <FaXTwitter className="w-7 h-7 text-white rounded-md bg-babyblue p-2 md:w-8 md:h-8" />
         </div>
 
         {/* Mobile Menu Button */}
@@ -123,19 +122,19 @@ const Navbar = () => {
               <img src={Logoheader} alt="logo" className="w-40" />
             </Link>
 
-            <ul className=" text-black text-xl font-inter font-medium py-24">
+            <ul className="text-lg font-inter font-medium py-24">
               <Link to="/">
-                <li className="block hover:text-babyblue hover:underline hover:underline-offset-[16px] my-6">
+                <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-babyblue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-babyblue my-6">
                   HOME
                 </li>
               </Link>
               <Link to="services">
-                <li className="block hover:text-babyblue hover:underline hover:underline-offset-[16px] my-6">
+                <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-babyblue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-babyblue">
                   SERVICES
                 </li>
               </Link>
               <Link to="contact">
-                <li className="block hover:text-babyblue hover:underline hover:underline-offset-[16px] my-6">
+                <li className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-babyblue after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hover:text-babyblue my-6">
                   CONTACT
                 </li>
               </Link>
@@ -149,9 +148,9 @@ const Navbar = () => {
                 <FaXTwitter className="w-10 h-10 text-white rounded-md bg-babyblue p-2" />
               </div>
 
-              <div className="grid space-y-2 py-4 font-inter text-lg font-semibold">
+              <div className="grid space-y-2 py-4 font-inter font-semibold">
                 <p className="">info@mdashipping.us</p>
-                <p className="">+1 912 000 4300</p>
+                <p className="">(+1) 912 000 4300</p>
               </div>
             </div>
           </div>

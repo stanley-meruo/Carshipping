@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
 
             <div className="flex flex-col items-center space-y-2 sm:-mt-4">
-              <div className="flex items-center gap-2 mt-6">
+              <div className="flex items-center gap-2 mt-6 sm:-ml-8">
                 <FaFacebook className="w-10 h-10 text-white hover:bg-babyblue hover:rounded-lg p-2" />
                 <FaYoutube className="w-10 h-10 text-white hover:bg-babyblue hover:rounded-lg p-2" />
                 <FaInstagram className="w-10 h-10 text-white hover:bg-babyblue hover:rounded-lg p-2" />
@@ -54,7 +54,7 @@ const Footer = () => {
                     info@mdashipping.us
                   </p>
                 </Link>
-                <p className="">+1 912 000 4300</p>
+                <p className="">(+1) 912 000 4300</p>
                 <div>
                   <p>3456 Crestwood Parkway,</p>
                   <p>Suite 400, Duluth GA,</p>

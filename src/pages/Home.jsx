@@ -1,20 +1,18 @@
+import { useEffect, useState } from "react";
 import Button from "../components/Button.jsx";
 import heroimage from "../assets/main.png";
 import { Link } from "react-router-dom";
 import CardComponents from "../components/CardComponents.jsx";
 import SectionComponents from "../components/SectionComponents.jsx";
-import Contact from "../components/Contact.jsx";
+import ContactComponent from "../components/ContactComponent.jsx";
 import Footer from "../components/Footer.jsx";
-import Navbar from "../components/Navbar.jsx";
 import YouTubeEmbed from "../components/YouTubeEmbed.jsx";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 
 const Home = () => {
-
-  const [ animate, setAnimate] = useState(false);
-  const [ scrollDirection, setScrollDirection] = useState(null);
+  const [animate, setAnimate] = useState(false);
+  const [scrollDirection, setScrollDirection] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,12 +30,10 @@ const Home = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-    
 
-  
   return (
     <>
-      <Navbar />
+      
       {/* HERO SECTION */}
       <div className=" md:flex md:flex-row md:pt-10">
         <motion.div
@@ -103,7 +99,7 @@ const Home = () => {
           SERVICES WE DO
         </h1>
       </motion.div>
-      <div className="grid pb-12 px-7 sm:px-10 md:px-12 lg:px-14 xl:px-16">
+      <div className="grid pb-12 px-6 sm:px-10 md:px-12 lg:px-14 xl:px-16">
         <div>
           <CardComponents />
         </div>
@@ -128,7 +124,7 @@ const Home = () => {
       </div>
 
       {/* CONTACT */}
-      <Contact />
+      <ContactComponent />
 
       {/* FOOTER */}
       <Footer />

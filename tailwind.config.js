@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        contactBg: "url('src/assets/car-bg.png')",
+      },
       fontFamily: {
         mulish: ['Mulish', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],

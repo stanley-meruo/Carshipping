@@ -26,7 +26,7 @@ const Footer = () => {
               <li className="py-4">
                 <Link
                   className="hover:text-babyblue hover:underline hover:underline-offset-[16px]"
-                  to="services"
+                  to="/services"
                 >
                   Services
                 </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
               <li className="py-4">
                 <Link
                   className="hover:text-babyblue hover:underline hover:underline-offset-[16px]"
-                  to="contact"
+                  to="/contact"
                 >
                   Contact
                 </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <FaInstagram className="w-10 h-10 text-white hover:bg-babyblue hover:rounded-lg p-2" />
                 <FaXTwitter className="w-10 h-10 text-white hover:bg-babyblue hover:rounded-lg p-2" />
               </div>
-              <div className="grid space-y-2 py-4 text-white text-center font-inter font-medium sm:text-left sm:space-y-4">
+              <div className="grid space-y-4 py-4 text-white text-center font-inter font-medium sm:text-left sm:space-y-4">
                 <Link to="">
                   <p className="underline underline-offset-2 hover:text-babyblue">
                     info@mdashipping.us

@@ -24,7 +24,6 @@
 ### Links
 
 [Demo](https://carshipping.vercel.app)
-[Demo-Link]- (https://carshipping.vercel.app)
 
 ### Built with
 
